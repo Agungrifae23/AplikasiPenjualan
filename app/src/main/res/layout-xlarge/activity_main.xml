@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="e.user.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="798dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="16dp"
+        android:text="Masuk"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="853dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="780dp"
+        android:layout_height="155dp"
+        android:text="Welcome"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@android:dimen/notification_large_icon_width"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="196dp"
+        android:layout_height="229dp"
+        android:text="23"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+</android.support.constraint.ConstraintLayout>
